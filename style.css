@@ -1,0 +1,32 @@
+
+main {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    max-width: 50em;
+}
+.center {
+    align-self: center;
+}
+* {
+	transition: all 0.4s linear;
+}
+body {
+	background: #222A61;
+	color: #EDE53E;
+	font-size: 90%;
+}
+.input-button {
+    border: none;
+	border-radius: 0.5em;
+	padding: 0.4em 0.8em;
+	background: #526FEE;
+	color: #EDE53E;
+}
+.input-button:hover {
+    background: #222A61;
+	cursor: pointer;
+}
+article {
+	margin-bottom: 3em;
+}
